@@ -2,10 +2,6 @@ import Chart from 'react-apexcharts'
 
 const BarChart = () => {
     const options = {
-        tooltip: {
-            enabled: false
-        }, 
-        
         plotOptions: {
             bar: {
                 horizontal: true,
